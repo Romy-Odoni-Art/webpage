@@ -1,4 +1,9 @@
+copyright = "© 2024 - Rosemary Odoni-Weber"
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Rodoni Art'
 theme = 'gallery'
+[params]
+  defaultTheme = 'light'
+  [params.socialIcons]
+    email = "mailto:user@example.com"
