@@ -5,5 +5,7 @@ title = 'Rodoni Art'
 theme = 'gallery'
 [params]
   defaultTheme = 'light'
+  [params.author]
+    name = "Rodoni"
   [params.socialIcons]
     email = "mailto:user@example.com"

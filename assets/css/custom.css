@@ -1,0 +1,9 @@
+.pswp__dynamic-caption::first-line {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.pswp__dynamic-caption {
+    white-space: pre-line;
+    /* This is here so the description in the light box respect the new lines */
+}
