@@ -4,6 +4,7 @@ description: Example Gallery for Romy Odoni
 title: Rodoni Art
 #featured_image: painting1.jpg # default: first image in this directory
 # featured_image on the home page is used for OpenGraph cards, etc.
+banner_image: "/images/home.jpg"
 menus:
   main:
     name: Home

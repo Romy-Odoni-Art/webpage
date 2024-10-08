@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ partial "title.html" . }}
+<div class="home-image-container-outer">
+    <div class="home-image-container">
+        <img src="{{ .Params.banner_image }}" alt="">
+    </div>
+</div>
+{{ partial "featured.html" . }}
+<section class="galleries">
+    {{ range where .Pages "Params.private" "ne" true }}
+    {{ partial "album-card.html" . }}
+    {{ end }}
+</section>
+{{ end }}

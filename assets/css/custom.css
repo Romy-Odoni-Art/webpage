@@ -7,3 +7,27 @@
     white-space: pre-line;
     /* This is here so the description in the light box respect the new lines */
 }
+
+hgroup {
+    margin-bottom: 1em;
+}
+
+.home-image-container-outer {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-image-container {
+    margin: 30px;
+}
+
+.home-image-container img {
+    width: 100%;
+    /* max-width: 700px; */
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
