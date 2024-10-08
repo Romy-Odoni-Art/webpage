@@ -9,3 +9,4 @@ theme = 'gallery'
     name = "Rodoni"
   [params.socialIcons]
     email = "mailto:user@example.com"
+    whatsapp = "https://wa.me/+41789625847"
