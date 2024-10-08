@@ -31,3 +31,7 @@ hgroup {
     display: block;
     object-fit: contain;
 }
+
+.home-intro-text {
+    font-size: 1.3em;
+}

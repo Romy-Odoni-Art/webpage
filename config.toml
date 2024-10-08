@@ -1,4 +1,4 @@
-copyright = "© 2024 - Rosemary Odoni-Weber"
+copyright = "© 2024 - Romy Odoni"
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Rodoni Art'
@@ -6,7 +6,7 @@ theme = 'gallery'
 [params]
   defaultTheme = 'light'
   [params.author]
-    name = "Rodoni"
+    name = "Romy Odoni"
   [params.socialIcons]
     email = "mailto:user@example.com"
     whatsapp = "https://wa.me/+41789625847"
