@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ partial "title.html" . }}
+<section class="prose" style="text-align: center;">
+    {{ .Content }}
+</section>
+
+<style>
+    .prose img {
+        display: block;
+        margin: 0 auto;
+    }
+</style>
+{{ end }}
