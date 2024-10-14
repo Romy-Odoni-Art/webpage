@@ -2,7 +2,7 @@
 {{ partial "home_title.html" . }}
 <div class="home-image-container-outer">
     <div class="home-image-container">
-        <img src="{{ .Params.banner_image }}" alt="">
+        <img src="{{ .Params.banner_image | relURL }}" alt="">
     </div>
 </div>
 {{ partial "featured.html" . }}

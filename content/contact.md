@@ -13,10 +13,10 @@ menu:
 
 ### Romy Odoni
 
-![mail](/images/mail.svg)
+{{< st_image "images/mail.svg" "mail" >}}
 
 [romy.odoni@outlook.com](mailto:romy.odoni@outlook.com)
 
-![phone](/images/phone.svg)
+{{< st_image "images/phone.svg" "phone" >}}
 
 +41788526974
