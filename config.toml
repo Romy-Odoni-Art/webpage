@@ -1,5 +1,5 @@
 copyright = "© 2024 - Romy Odoni"
-baseURL = 'http://example.org/'
+baseURL = 'https://romy-odoni-art.github.io/webpage'
 languageCode = 'en-us'
 title = 'Rodoni Art'
 theme = 'gallery'
