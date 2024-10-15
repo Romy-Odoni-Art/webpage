@@ -1,5 +1,5 @@
 copyright = "© 2024 - Romy Odoni"
-baseURL = 'https://romy-odoni-art.github.io/webpage'
+baseURL = 'https://https://romy-odoni-art.netlify.app'
 languageCode = 'en-us'
 title = 'Rodoni Art'
 theme = 'gallery'
