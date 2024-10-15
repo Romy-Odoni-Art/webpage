@@ -58,27 +58,33 @@ func main() {
 	}
 	defs := []*paintingdef.Definition{}
 	for _, f := range files {
-		if strings.HasPrefix(f.Name(), "painting") {
+
+		if strings.HasPrefix(f.Name(), "painting") && filepath.Ext(f.Name()) == ".md" {
 			def, err := paintingdef.ParseDefFromFile(filepath.Join(inputParams.searchDir, f.Name()))
 			if err != nil {
 				log.Fatal(err)
 			}
+			log.Println("Adding painting " + def.Title)
 			defs = append(defs, def)
 		}
 	}
-	index := &galleryindex.GalleryIndex{
-		GeneralDescription:   inputParams.description,
-		GeneralTitle:         inputParams.title,
-		GeneralWeight:        inputParams.weight,
-		GeneralFeaturedImage: inputParams.featuredImage,
-		Definitions:          defs,
-	}
-	fOut, err := os.Create(inputParams.outFile)
-	if err != nil {
-		log.Fatal(err)
-	}
-	err = index.Write(fOut, tmpFile)
-	if err != nil {
-		log.Fatal(err)
+	if len(defs) > 0 {
+		index := &galleryindex.GalleryIndex{
+			GeneralDescription:   inputParams.description,
+			GeneralTitle:         inputParams.title,
+			GeneralWeight:        inputParams.weight,
+			GeneralFeaturedImage: inputParams.featuredImage,
+			Definitions:          defs,
+		}
+		fOut, err := os.Create(inputParams.outFile)
+		if err != nil {
+			log.Fatal(err)
+		}
+		err = index.Write(fOut, tmpFile)
+		if err != nil {
+			log.Fatal(err)
+		}
+	} else {
+		log.Println("No panting files found, skipping")
 	}
 }

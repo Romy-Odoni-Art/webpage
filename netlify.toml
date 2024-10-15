@@ -1,0 +1,11 @@
+[build.environment]
+HUGO_VERSION = "0.135.0"
+TZ = "Europe/Zurich"
+
+[build]
+publish = "public"
+command = """\
+  ./add_galleries/bin/add_galleries_linux_amd64 -title Oil -description 'Some description about oil paintings' -dir content/oil -weight 1 -featured painting5.jpg -out content/oil/index.md && \
+  ./add_galleries/bin/add_galleries_linux_amd64 -title Acrylic -description 'Some description about acrylic paintings' -dir content/acrylic -weight 2 -featured painting2.jpg -out content/acrylic/index.md && \
+  hugo --gc --minify \
+  """
