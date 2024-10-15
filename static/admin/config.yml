@@ -1,0 +1,51 @@
+backend:
+  name: github
+  repo: Romy-Odoni-Art/webpage
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: static/images
+public_folder: /images
+collections:
+  - name: "oil"
+    label: "Oil Paintings"
+    folder: "content/oil"
+    identifier_field: "painting_title"
+    create: true
+    slug: "painting-{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - label: "Painting"
+        name: "painting"
+        widget: "image"
+        media_folder: ""
+      - label: "Title"
+        name: "painting_title"
+        widget: string
+      - label: "Size"
+        name: "painting_size"
+        widget: string
+      - label: "Description"
+        name: "painting_desc"
+        widget: string
+  - name: "acrylic"
+    label: "Acrylic Paintings"
+    folder: "content/acrylic"
+    identifier_field: "painting_title"
+    create: true
+    slug: "painting-{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - label: "Painting"
+        name: "painting"
+        widget: "image"
+        media_folder: ""
+      - label: "Title"
+        name: "painting_title"
+        widget: string
+      - label: "Size"
+        name: "painting_size"
+        widget: string
+      - label: "Description"
+        name: "painting_desc"
+        widget: string

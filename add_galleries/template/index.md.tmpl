@@ -1,0 +1,16 @@
+---
+description: {{ .GeneralDescription }}
+menus: "main"
+title: {{ .GeneralTitle }}
+weight: {{ .GeneralWeight }}
+featured_image: {{ .GeneralFeaturedImage }}
+resources:
+  {{ range .Definitions -}}
+  - src: {{ .Path }}
+    title: |
+        {{ .Title }}
+
+        {{ .Desc }}
+        {{ .Size }}
+  {{ end -}}
+---
