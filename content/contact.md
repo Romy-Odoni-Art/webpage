@@ -1,8 +1,7 @@
 ---
 layout: page
 rss_ignore: true
-title: Contact
-description: Contact information for any queries
+title: Kontakt
 layout: contact
 menu:
   footer:
@@ -16,7 +15,3 @@ menu:
 {{< st_image "images/mail.svg" "mail" >}}
 
 [romy.odoni@outlook.com](mailto:romy.odoni@outlook.com)
-
-{{< st_image "images/phone.svg" "phone" >}}
-
-+41788526974

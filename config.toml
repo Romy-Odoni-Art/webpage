@@ -1,12 +1,11 @@
-copyright = "© 2024 - Romy Odoni"
+copyright = "© 2025 - Romy Odoni"
 baseURL = 'https://romy-odoni-art.netlify.app'
 languageCode = 'en-us'
-title = 'Rodoni Art'
+title = ''
 theme = 'gallery'
 [params]
   defaultTheme = 'light'
   [params.author]
     name = "Romy Odoni"
   [params.socialIcons]
-    email = "mailto:user@example.com"
-    whatsapp = "https://wa.me/+41789625847"
+    email = "mailto:romy.odoni@outlook.com"

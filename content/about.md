@@ -1,7 +1,7 @@
 ---
 layout: page
 rss_ignore: true
-title: About
+title: Über mich
 menu:
   main:
     weight: 90
