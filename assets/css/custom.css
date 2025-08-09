@@ -15,6 +15,7 @@
 
 hgroup {
     margin-bottom: 1em;
+    max-width: 1240px;
 }
 
 .home-image-container-outer {
@@ -38,5 +39,6 @@ hgroup {
 }
 
 .home-intro-text {
-    font-size: 1.3em;
+    font-size: 1.1em;
+    white-space: pre-line;
 }
