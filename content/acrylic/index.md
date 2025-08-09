@@ -3,5 +3,7 @@
 menus: "main"
 title: Acryl
 #type: gallery
+sort_by: Date
+sort_order: desc
 weight: 2
 ---

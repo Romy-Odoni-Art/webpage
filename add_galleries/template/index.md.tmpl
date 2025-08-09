@@ -3,6 +3,8 @@ description: {{ .GeneralDescription }}
 menus: "main"
 title: {{ .GeneralTitle }}
 weight: {{ .GeneralWeight }}
+sort_by: Date
+sort_order: desc
 resources:
   {{ range .Definitions -}}
   - src: {{ .Path }}
