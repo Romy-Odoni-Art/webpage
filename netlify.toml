@@ -5,8 +5,8 @@ TZ = "Europe/Zurich"
 [build]
 publish = "public"
 command = """\
-  ./add_galleries/bin/add_galleries_linux_amd64 -title Öl  -dir content/oil -weight 1 -out content/oil/index.md && \
-  ./add_galleries/bin/add_galleries_linux_amd64 -title Acryl -dir content/acrylic -weight 2 -out content/acrylic/index.md && \
+  ./add_galleries/bin/add_galleries_linux_amd64 -title Öl  -dir content/oil -weight 2 -out content/oil/index.md && \
+  ./add_galleries/bin/add_galleries_linux_amd64 -title Acryl -dir content/acrylic -weight 1 -out content/acrylic/index.md && \
   ./add_galleries/bin/add_galleries_linux_amd64 -title Andere -dir content/others -weight 3 -out content/others/index.md && \
   hugo --gc --minify \
   """
