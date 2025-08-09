@@ -16,12 +16,11 @@ import (
 var tmpFile string
 
 type inputParams struct {
-	searchDir     string
-	title         string
-	description   string
-	weight        int
-	featuredImage string
-	outFile       string
+	searchDir   string
+	title       string
+	description string
+	weight      int
+	outFile     string
 }
 
 func getParams() (*inputParams, error) {
@@ -29,18 +28,16 @@ func getParams() (*inputParams, error) {
 	desc := flag.String("description", "", "Description text for the gallery")
 	searchDir := flag.String("dir", "", "Content directory to search for paintings")
 	weight := flag.Int("weight", 0, "Weight of the gallery to determine order")
-	featuredImage := flag.String("featured", "", "Painting to feature in the gallery")
 	outFile := flag.String("out", "", "Name of the file to output")
 	flag.Parse()
 	out := &inputParams{
-		searchDir:     *searchDir,
-		title:         *title,
-		description:   *desc,
-		weight:        *weight,
-		featuredImage: *featuredImage,
-		outFile:       *outFile,
+		searchDir:   *searchDir,
+		title:       *title,
+		description: *desc,
+		weight:      *weight,
+		outFile:     *outFile,
 	}
-	if out.searchDir == "" || out.title == "" || out.weight == 0 || out.featuredImage == "" || out.outFile == "" {
+	if out.searchDir == "" || out.title == "" || out.weight == 0 || out.outFile == "" {
 		flag.Usage()
 		return nil, errors.New("required parameter was not set. Required are title, dir, weight, featured and out")
 	}
@@ -70,11 +67,10 @@ func main() {
 	}
 	if len(defs) > 0 {
 		index := &galleryindex.GalleryIndex{
-			GeneralDescription:   inputParams.description,
-			GeneralTitle:         inputParams.title,
-			GeneralWeight:        inputParams.weight,
-			GeneralFeaturedImage: inputParams.featuredImage,
-			Definitions:          defs,
+			GeneralDescription: inputParams.description,
+			GeneralTitle:       inputParams.title,
+			GeneralWeight:      inputParams.weight,
+			Definitions:        defs,
 		}
 		fOut, err := os.Create(inputParams.outFile)
 		if err != nil {
