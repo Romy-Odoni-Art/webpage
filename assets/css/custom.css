@@ -42,3 +42,8 @@ hgroup {
     font-size: 1.1em;
     white-space: pre-line;
 }
+
+.prose h1 {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
