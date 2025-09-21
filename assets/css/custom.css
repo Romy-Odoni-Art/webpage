@@ -47,3 +47,11 @@ hgroup {
     font-size: 1.75rem;
     font-weight: 500;
 }
+
+.custom-footer {
+    white-space: pre-line;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-wrap: balance;
+}

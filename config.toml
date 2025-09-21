@@ -5,6 +5,7 @@ title = ''
 theme = 'gallery'
 [params]
   defaultTheme = 'light'
+  footerText = "Kontaktieren Sie mich, um mehr über die Bilder und die Preise zu erfahren" 
   [params.author]
     name = "Romy Odoni"
   [params.socialIcons]
