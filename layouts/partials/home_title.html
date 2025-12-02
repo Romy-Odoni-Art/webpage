@@ -5,4 +5,13 @@
     <p class="home-intro-text">{{ . }}</p>
     {{ end }}
 </hgroup>
+{{ else }}
+{{ if .Params.title_image }}
+<hgroup>
+    <img src="{{ .Params.title_image | relURL }}" alt="">
+    {{ with .Params.Description }}
+    <p class="home-intro-text">{{ . }}</p>
+    {{ end }}
+</hgroup>
+{{ end }}
 {{ end }}
