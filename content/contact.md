@@ -7,7 +7,7 @@ menu:
   footer:
     weight: 1
   main:
-    weight: 95
+    weight: 70
 ---
 
 ### Romy Odoni

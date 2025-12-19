@@ -4,7 +4,7 @@ rss_ignore: true
 title: Preise
 menu:
   main:
-    weight: 70
+    weight: 40
 ---
 
 # Acryl Bilder

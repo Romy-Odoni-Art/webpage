@@ -3,7 +3,7 @@
 menus: "main"
 title: Öl
 #type: gallery
-weight: 2
+weight: 20
 sort_by: Date
 sort_order: desc
 ---

@@ -4,7 +4,7 @@ rss_ignore: true
 title: Über mich
 menu:
   main:
-    weight: 90
+    weight: 50
 ---
 
 # Biographisches

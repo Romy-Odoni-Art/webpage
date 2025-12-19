@@ -4,7 +4,7 @@ menus: "main"
 title: Hinter die Kulissen
 params:
   private: true
-weight: 2
+weight: 60
 sort_by: Name
 sort_order: asc
 resources:

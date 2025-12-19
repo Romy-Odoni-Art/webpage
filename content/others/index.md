@@ -3,7 +3,7 @@
 menus: "main"
 title: Andere
 #type: gallery
-weight: 3
+weight: 30
 sort_by: Date
 sort_order: desc
 ---
