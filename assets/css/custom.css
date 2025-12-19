@@ -7,6 +7,7 @@
     white-space: pre-line;
     /* This is here so the description in the light box respect the new lines */
     font-size: larger;
+    max-width: 400px;
 }
 
 .pswp__button--download-button {
@@ -42,6 +43,20 @@ hgroup {
     font-size: 1.1em;
     white-space: pre-line;
 }
+
+.home-intro-banner {
+    font-size: 1.1em;
+    white-space: pre-line;
+    font-weight: bold;
+}
+
+.home-intro-banner-link {
+    font-size: 1.1em;
+    white-space: pre-line;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 
 .prose h1 {
     font-size: 1.75rem;

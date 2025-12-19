@@ -3,6 +3,10 @@ baseURL = 'https://romy-odoni-art.netlify.app'
 languageCode = 'en-us'
 title = ''
 theme = 'gallery'
+[markup.goldmark.renderHooks.link]
+  enableDefault = true
+[markup.goldmark.renderHooks.image]
+  enableDefault = true
 [params]
   defaultTheme = 'light'
   footerText = "Kontaktieren Sie mich, um mehr über die Bilder und die Preise zu erfahren" 
