@@ -1,7 +1,7 @@
 ---
 description: Einblicke hinter den Vorhang – Arbeiten im Atelier, Prozesse und Rahmenbau. Alle Schattenfugen-Rahmen werden in der eigenen Werkstatt von Hand gefertigt.
 menus: "main"
-title: Hinter die Kulissen
+title: Blick hinter die Kulissen
 params:
   private: true
 weight: 60
