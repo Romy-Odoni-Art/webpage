@@ -9,7 +9,7 @@ menu:
 
 # Biographisches
 
-Romy Odoni, geboren 1959 in Luzern, verheiratet, drei erwachsene Kinder, ich lebe und arbeitet in Rain. Seit fünf Jahren nehme ich Unterricht bei Tatjana Shitikova, Luzern. Dort lasse ich mich ausbilden in verschiedenen Malstilen und Techniken. 
+Romy Odoni, geboren 1959 in Luzern, verheiratet, drei erwachsene Kinder, ich lebe und arbeitet in Rain. Seit 2019 nehme ich Unterricht bei Tatjana Shitikova, Luzern. Dort lasse ich mich ausbilden in verschiedenen Malstilen und Techniken. 
 
 # Bildsprache, künstlerische Aussage
 
