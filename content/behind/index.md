@@ -22,4 +22,13 @@ resources:
         Winklig Leimen der Leisten
   - src: img_6.jpeg
     title: Fertige Rahmen
+  - src: img_7.jpeg
+    title: |
+        Jedes verkaufte Bild bekommt ein Echtheitssiegel
+  - src: img_8.jpeg
+    title: |
+        Jedes verkaufte Bild bekommt ein Echtheitssiegel
+  - src: img_9.jpeg
+    title: |
+        Jedes verkaufte Bild bekommt ein Echtheitssiegel
 ---
